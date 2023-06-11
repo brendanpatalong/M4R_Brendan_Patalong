@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+<Collection>
+<DataSet timestep="0" file="binoculars_0.vtu" />
+<DataSet timestep="1" file="binoculars_1.vtu" />
+<DataSet timestep="2" file="binoculars_2.vtu" />
+<DataSet timestep="3" file="binoculars_3.vtu" />
+<DataSet timestep="4" file="binoculars_4.vtu" />
+<DataSet timestep="5" file="binoculars_5.vtu" />
+<DataSet timestep="6" file="binoculars_6.vtu" />
+<DataSet timestep="7" file="binoculars_7.vtu" />
+<DataSet timestep="8" file="binoculars_8.vtu" />
+<DataSet timestep="9" file="binoculars_9.vtu" />
+<DataSet timestep="10" file="binoculars_10.vtu" />
+<DataSet timestep="11" file="binoculars_11.vtu" />
+<DataSet timestep="12" file="binoculars_12.vtu" />
+<DataSet timestep="13" file="binoculars_13.vtu" />
+<DataSet timestep="14" file="binoculars_14.vtu" />
+<DataSet timestep="15" file="binoculars_15.vtu" />
+<DataSet timestep="16" file="binoculars_16.vtu" />
+<DataSet timestep="17" file="binoculars_17.vtu" />
+<DataSet timestep="18" file="binoculars_18.vtu" />
+<DataSet timestep="19" file="binoculars_19.vtu" />
+</Collection>
+</VTKFile>
