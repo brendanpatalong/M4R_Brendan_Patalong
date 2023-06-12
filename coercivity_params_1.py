@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-mesh0 = RectangleMesh(10,10,1,1)
+mesh0 = RectangleMesh(15,15,1,1)
 def asinh(x):
     return ln(x+sqrt(x**2+1))
 
@@ -38,17 +38,15 @@ DG_error_df = pd.DataFrame(index = index_array, columns=index_array, data = np.l
 CG_error_df = pd.DataFrame(index = index_array, columns=index_array, data = np.log(CG_error_array))
 
 plt.figure()
-plt.title(r"Heatmap of log Errors for Different $\gamma_0$ and $\gamma_1$ for the DG scheme")
 sns.heatmap(DG_error_df, cmap=sns.color_palette("Blues", as_cmap=True))
-plt.xlabel(r"$\log(\gamma_1)$")
-plt.ylabel(r"$\log(\gamma_0)$")
+plt.xlabel(r"$\log(\gamma_1)$",size=16)
+plt.ylabel(r"$\log(\gamma_0)$",size=16)
 plt.savefig("heatmap DG 1")
 
 plt.figure()
-plt.title(r"Heatmap of log Errors for Different $\gamma_0$ and $\gamma_1$ for the CG scheme")
 sns.heatmap(CG_error_df, cmap=sns.color_palette("Blues", as_cmap=True))
-plt.xlabel(r"$\log(\gamma_1)$")
-plt.ylabel(r"$\log(\gamma_0)$")
+plt.xlabel(r"$\log(\gamma_1)$",size=16)
+plt.ylabel(r"$\log(\gamma_0)$",size=16)
 plt.savefig("heatmap CG 1")
 
 
